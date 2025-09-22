@@ -24,6 +24,12 @@ int alocacao(int n)
             printf("erro na locacao de memoria\n");
             return 1;
         }
+        for(int i = 0; i < n;i++)
+        {
+            scanf("%d",p1);
+            p1++;
+        }
+        p1 - n;
         return *p1;
         free(p1);
     }
