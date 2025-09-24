@@ -10,5 +10,5 @@ int main()
         float notas[3];
     };
     
-    printf("%d",sizeof(struct aluno));
+    printf("%zu\n",sizeof(struct aluno));
 }
